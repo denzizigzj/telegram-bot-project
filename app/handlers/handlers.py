@@ -108,3 +108,4 @@ async def callback_query_handler(callback_query: CallbackQuery):
         await send_categories(chat_id, page=1)
     
     await callback_query.answer() 
+    #Hello world
